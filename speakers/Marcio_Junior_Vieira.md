@@ -1,5 +1,5 @@
 # Marcio Junior Vieira
-![Marcio Junior Vieira](/speakers/img/marciojuniorvieira.jpg "Marcio Junior Vieira")
+<img src="/speakers/img/marciojuniorvieira.jpg" alt="Marcio Junior Vieira" style="height: 200px; width:200px;"/>
 
 # Minio Bio
 * 23 anos de experiência em TI, vivência em desenvolvimento e análise de sistemas de gestão empresarial e ciência de dados.
