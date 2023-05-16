@@ -18,5 +18,7 @@
 
 # Mídias Sociais
 Linkedin.: https://www.linkedin.com/in/mvieira1/
+
 Twitter..: https://twitter.com/marciojvieira 
+
 Instagram: https://www.instagram.com/ambientelivreopensoftware/
