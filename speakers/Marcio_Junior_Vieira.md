@@ -1,5 +1,5 @@
 # Marcio Junior Vieira
-![Marcio Junior Vieira](/img/marciojuniorvieira.png "Marcio Junior Vieira")
+![Marcio Junior Vieira](/img/marciojuniorvieira.jpg "Marcio Junior Vieira")
 
 # Minio Bio
 * 23 anos de experiência em TI, vivência em desenvolvimento e análise de sistemas de gestão empresarial e ciência de dados.
