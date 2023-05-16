@@ -1,3 +1,6 @@
+# Marcio Junior Vieira
+![Marcio Junior Vieira](/img/marciojuniorvieira.png "Marcio Junior Vieira")
+
 # Minio Bio
 * 23 anos de experiência em TI, vivência em desenvolvimento e análise de sistemas de gestão empresarial e ciência de dados.
 * CEO da Ambiente Livre atuando como Cientista de Dados, Engenheiro de Dados e Arquiteto de Software.
