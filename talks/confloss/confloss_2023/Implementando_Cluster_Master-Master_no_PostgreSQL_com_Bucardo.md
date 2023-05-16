@@ -18,5 +18,7 @@ implementar um banco de dados PostgreSQL com o conceito de Multi-Master/Master-M
 
 # Minio Bio do Palestrante:
 
+[include](File:../../../speakers/Marcio_Junior_Vieira.md)
+
 
  
