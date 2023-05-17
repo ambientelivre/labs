@@ -10,4 +10,4 @@
      
 # Mídias Sociais
 Linkedin.: https://www.linkedin.com/in/williane-pinheiro/
-Instagram: https://www.instagram.com/delfino_williane/
+Instagram.: https://www.instagram.com/delfino_williane/
