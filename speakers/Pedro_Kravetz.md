@@ -1,4 +1,4 @@
-# Marcos Junior Churkin
+# Pedro Kravetz
 <img src="/speakers/img/PedroKravetz.JPG" alt="Pedro Kravetz" style="height: 200px; width:200px;"/>
 
 # Mini Bio
