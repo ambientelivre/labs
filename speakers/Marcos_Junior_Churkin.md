@@ -7,7 +7,7 @@
 * Atua com Free Software e Open Source.
 * Apresentação de trabalho científico na USP Engenharia da Produção 2021, 2022.
 * Extensão universitária - Is there education that is not online learning? The past, present, and future of online education - Must University Florida, EUA.
-* Extensão universitária - TALINKING BUSINESS | DATA SCIENCE & INTELIGÊNCIA ARTIFICIAL - UNINTER.
+* Extensão universitária - TALKING BUSINESS | DATA SCIENCE & INTELIGÊNCIA ARTIFICIAL - UNINTER.
 * Colaborador em projetos Open Source Alfresco.
 
 # Mídias Sociais
