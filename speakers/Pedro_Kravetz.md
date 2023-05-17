@@ -9,5 +9,5 @@
 * Colaborador no projeto Open Source Camunda.
 
 # Mídias Sociais
-Linkedin.: https://www.linkedin.com/in/marcos-junior-churkin-a83665229/
+Linkedin.: https://www.linkedin.com/in/pedrokravetz/
 
