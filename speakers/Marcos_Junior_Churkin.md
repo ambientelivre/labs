@@ -13,4 +13,4 @@
 # Mídias Sociais
 Linkedin.: https://www.linkedin.com/in/marcos-junior-churkin-a83665229/
 
-Instagram: https://www.instagram.com/ambientelivreopensoftware/
+Instagram: https://www.instagram.com/marcoschurkin/
