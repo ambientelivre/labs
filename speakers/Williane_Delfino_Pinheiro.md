@@ -1,5 +1,5 @@
 # Williane Delfino Pinheiro
-<img src="/speakers/img/willianedelfinopinheiro.jpg" alt="Williane Delfino Pinheiro" style="height: 200px; width:200px;"/>
+<img src="/speakers/img/willianedelfinopinheiro.jpg" alt="Williane Delfino Pinheiro" style="height: 200px; width:128px;"/>
 
 # Minio Bio 
 * Graduada em Pedagogia pela UFOPA.
