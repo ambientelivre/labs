@@ -1,5 +1,5 @@
 # Marcos Junior Churkin
-<img src="/speakers/img/PedroKravetz.jpg" alt="Pedro Kravetz" style="height: 200px; width:200px;"/>
+<img src="/speakers/img/PedroKravetz.JPG" alt="Pedro Kravetz" style="height: 200px; width:200px;"/>
 
 # Mini Bio
 * Graduando em Engenharia da Computação UTFPR.
