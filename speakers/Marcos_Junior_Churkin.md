@@ -2,7 +2,7 @@
 <img src="/speakers/img/marcosjuniorchurkin.jpg" alt="Marcos Junior Churkin" style="height: 200px; width:200px;"/>
 
 # Minio Bio
-* Acadêmico em Ciência da Computação UniCuritiba.
+* Acadêmico em Ciência da Computação UNICURITIBA.
 * Técnico em Análise e Desenvolvimento de Sistemas (ADS) SENAI-PR.
 * Atua com Free Software e Open Source.
 * Apresentação de trabalho científico na USP Engenharia da Produção 2021, 2022.
