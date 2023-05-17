@@ -1,7 +1,7 @@
 # Marcos Junior Churkin
 <img src="/speakers/img/marcosjuniorchurkin.jpg" alt="Marcos Junior Churkin" style="height: 200px; width:200px;"/>
 
-# Minio Bio
+# Mini Bio
 * Acadêmico em Ciência da Computação UNICURITIBA.
 * Técnico em Análise e Desenvolvimento de Sistemas (ADS) SENAI-PR.
 * Atua com Free Software e Open Source.
