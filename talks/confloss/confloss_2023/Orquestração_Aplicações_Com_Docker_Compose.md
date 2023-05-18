@@ -3,13 +3,13 @@ Orquestração de Aplicações com Docker Compose: Simplificando o Gerenciamento
 
 
 ## Descrição da Palestra
-Nesta palestra, exploraremos as funcionalidades e benefícios do Docker Compose, uma ferramenta amplamente utilizada para orquestrar aplicações e simplificar o gerenciamento de ambientes de desenvolvimento. Abordaremos desde a configuração inicial até o escalonamento de serviços, permitindo aos desenvolvedores criar e gerenciar ambientes consistentes e eficientes. Será apresentado exemplos práticos, dicas e boas práticas para facilitar o uso do Docker Compose em diferentes cenários.
+Nesta palestra, exploraremos as funcionalidades e benefícios do Docker Compose, uma ferramenta amplamente utilizada para orquestrar aplicações e simplificar o gerenciamento de ambientes de desenvolvimento. Abordaremos desde a configuração inicial até o escalonamento de serviços, permitindo aos desenvolvedores criar e gerenciar ambientes consistentes e eficientes. Será apresentado um exemplo prático, dicas e boas práticas para facilitar o uso do Docker Compose em diferentes cenários.
 
 Tópicos a serem abordados:
 
 
 * O que é Docker Compose e suas vantagens.
-* Configuração de ambientes de desenvolvimento Docker Compose.
+* Configuração de ambientes de desenvolvimento com Docker Compose.
 * Gereciamento de dependências e componentes com Docker Compose.
 * Escabilidade e balanceamento de serviços.
 * Gerenciamento de ambientes de desenvolvimento com Docker Compose.
