@@ -1,5 +1,5 @@
 # Título
-Alfresco: Digital Business Platform Overview (ECM)
+# Alfresco: Digital Business Platform Overview (ECM)
 
 ## Descrição da Palestra
 Apresentaremos um panorama geral da plataforma Alfresco, uma solução de código aberto e software livre voltada para gestão de conteúdo empresarial (ECM - Enterprise Content Management). A plataforma Alfresco oferece um conjunto abrangente de recursos e ferramentas para ajudar as organizações a gerenciar de forma eficiente seus conteúdos digitais e processos de negócios.
