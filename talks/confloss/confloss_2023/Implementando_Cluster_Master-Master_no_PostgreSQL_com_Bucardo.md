@@ -1,5 +1,5 @@
 # Título
-Implementando um Cluster Master-Master no PostgreSQL com Bucardo.
+# Implementando um Cluster Master-Master no PostgreSQL com Bucardo.
 
 ## Descrição da Palestra
 Será apresentando o Software Open Source Bucardo e como  podemo usar o mesmo para problemas onde necessitamos 
