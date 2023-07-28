@@ -17,7 +17,5 @@ Somente interno no MindHub não terá transmissão ou liberação para público 
   Palestrante: [Marcos Churkin](https://github.com/ambientelivre/labs/blob/main/speakers/Marcos_Junior_Churkin.md)
 * 11:05 as 11:50 - [Implementando um Cluster Master-Master no PostgreSQL com Bucardo](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2023/Implementando_Cluster_Master-Master_no_PostgreSQL_com_Bucardo.md)
   Palestrante: [Marcio Junior Vieira](https://github.com/ambientelivre/labs/blob/main/speakers/Marcio_Junior_Vieira.md)
-* 11:50 as 12:35 - ** Não Confirmar*** [Kubeflow: Machine Learning em escala (com Python)](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2023/Kubeflow_Machine_Learning_em_escala.md)
+* 11:50 as 12:35 - ** Não Confirmada*** [Kubeflow: Machine Learning em escala (com Python)](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2023/Kubeflow_Machine_Learning_em_escala.md)
   Palestrante: [Thiago Gonçalves](https://github.com/ambientelivre/labs/blob/main/speakers/Thiago_G_Goncalves.md)
-                   
-
