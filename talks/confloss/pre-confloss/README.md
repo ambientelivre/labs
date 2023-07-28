@@ -11,8 +11,10 @@ Somente interno no MindHub não terá transmissão ou liberação para público 
 * 08:30 as 09:15 - [Alfresco: Digital Business Platform Overview (ECM)](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2023/Alfresco_Digital_Business_Platform_Overview_ECM.md)
   Palestrante: [Williane Delfino](https://github.com/ambientelivre/labs/blob/main/speakers/Williane_Delfino_Pinheiro.md)
 * 09:15 as 10:00 - [Orquestração de Microsserviços em Java com Camunda Plataform 8](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2023/Orquestracao_de_mircrosservicos_com_Camunda.md)
-* 10:00 as 10:20 - Pausa para café.
   Palestrante: [Pedro Kravetz](https://github.com/ambientelivre/labs/blob/main/speakers/Pedro_Kravetz.md)
+
+* 10:00 as 10:20 - Pausa para café.
+
 * 10:20 as 11:05 - [Orquestração de Aplicações com Docker Compose: Simplificando o Gerenciamento de Ambientes de Desenvolvimento](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2023/Orquestra%C3%A7%C3%A3o_Aplica%C3%A7%C3%B5es_Com_Docker_Compose.md)
   Palestrante: [Marcos Churkin](https://github.com/ambientelivre/labs/blob/main/speakers/Marcos_Junior_Churkin.md)
 * 11:05 as 11:50 - [Implementando um Cluster Master-Master no PostgreSQL com Bucardo](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2023/Implementando_Cluster_Master-Master_no_PostgreSQL_com_Bucardo.md)
