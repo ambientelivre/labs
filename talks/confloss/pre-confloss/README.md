@@ -5,7 +5,7 @@ Este evento será para validar e testar os palestrantes internamente antes da ap
 Somente interno no MindHub não terá transmissão ou liberação para público externo para manter a exclusividade ao Evento Confloss.
 
 ## Grade
-Dia 04/08/2023 na Sala de Treinamento do MindHub
+Dia 11/08/2023 na Sala de Treinamento do MindHub
 
 * 08:25 as 08:30 - Abertura:O que é o CONFLOSS.
   Palestrante: [Marcio Junior Vieira](https://github.com/ambientelivre/labs/blob/main/speakers/Marcio_Junior_Vieira.md)
