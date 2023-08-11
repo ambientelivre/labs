@@ -1,0 +1,153 @@
+# Hacks Bucardo.
+
+1) Colocar VMs em modo NAT (para realizar downloads de internet)
+
+2) Instalar pré-Requisitos (Perl e libs)
+sudo apt install perl postgresql-plperl-15 libdbix-safe-perl libperl-dev libanyevent-dbd-pg-perl libpod-parser-perl libcgi-application-plugin-anytemplate-perl
+
+3) Fazer download do Bucardo
+
+su - 
+wget https://bucardo.org/downloads/Bucardo-5.6.0.tar.gz
+tar -zxvf Bucardo-5.6.0.tar.gz
+
+cd Bucardo-5.6.0/
+perl Makefile.PL
+make
+
+cp bucardo.schema blib/share/bucardo.schema
+cp Bucardo.pm blib/lib/Bucardo.pm
+cp bucardo blib/script/bucardo
+
+perl Makefile.PL
+make
+make install
+
+mkdir /var/log/bucardo
+mkdir /var/run/bucardo
+
+nano /etc/postgresql/15/main/pg_hba.conf
+
+adicionar as linhas a seguir:
+
+local   all             bucardo                                 trust
+
+local   all             bucardo                                 trust
+
+host    all             all             127.0.0.1/32            trust
+
+
+cat /etc/postgresql/15/main/pg_hba.conf
+# Database administrative login by Unix domain socket
+local   all             bucardo                                 trust
+local   all             all                                     md5     
+
+# TYPE  DATABASE        USER            ADDRESS                 METHOD
+# "local" is for Unix domain socket connections only
+local   all             all                                     md5
+local   all             bucardo                                 trust
+# IPv4 local connections:
+host    all             all             127.0.0.1/32            trust
+host    all             all             127.0.0.1/32            md5
+# IPv6 local connections:
+host    all             all             ::1/128                 trust
+host    all             all             ::1/128                 md5
+# Allow replication connections from localhost, by a user with the replication privilege.
+host    all             all             ::1/128                 trust
+local   replication     all                                     peer
+host    replication     all             127.0.0.1/32            scram-sha-256
+host    replication     all             ::1/128                 scram-sha-256
+
+service postgresql restart
+
+su - postgres
+
+bucardo install
+
+Current connection settings:
+1. Host:           <none>
+2. Port:           5432
+3. User:           postgres  *** DIGITE 3 e ALTERE ESTE de bucardo para postgres
+4. Database:       bucardo   
+5. PID directory:  /var/run/bucardo
+Enter a number to change it, P to proceed, or Q to quit: 3 depois P
+
+# confira o database e usuarios criado.
+psql -U postgres postgres
+\l
+\du
+\q
+
+psql -U bucardo postgres
+
+create database test1;
+create database test2;
+
+\c test1;
+create table t1 (id int primary key, name varchar);
+
+\c test2;
+create table t1 (id int primary key, name varchar);
+
+\q
+
+bucardo add database dbtest1 dbname=test1
+bucardo add database dbtest2 dbname=test2
+
+bucardo list db
+Database: dbtest1  Status: active  Conn: psql -U bucardo -d test1
+Database: dbtest2  Status: active  Conn: psql -U bucardo -d test2
+
+bucardo add all tables db=dbtest1
+bucardo add all tables db=dbtest2
+
+bucardo list tables
+
+bucardo add all tables db=dbtest1 --herd=dbtest1_dbtest2
+bucardo add all tables db=dbtest2 --herd=dbtest2_dbtest1
+
+bucardo list herd
+
+bucardo add sync sync_dbpmis1 relgroup=dbtest1_dbtest2 dbs=dbtest1,dbtest2
+bucardo add sync sync_dbpmis2 relgroup=dbtest2_dbtest1 dbs=dbtest2,dbtest1
+
+bucardo list sync
+
+# retorne para o root
+exit
+bucardo start
+bucardo status
+
+su - postgres
+psql -U bucardo -d test1
+
+insert into t1 (id, name) values (1,'Marcio');
+insert into t1 (id, name) values (2,'Joao');
+insert into t1 (id, name) values (3,'Maria');
+
+\c test2
+insert into t1 (id, name) values (4,'Gisele');
+insert into t1 (id, name) values (5,'Catarina');
+insert into t1 (id, name) values (6,'Torvalds');
+
+select * from t1;
+
+\c test1 
+select * from t1;
+
+delete from t1 where id = 1;
+
+\c test2 
+select * from t1;
+
+delete from t1 where id = 2;
+
+\c test1
+select * from t1;
+
+Refencias:
+https://bucardo.org/Bucardo/installation/
+https://www.linkedin.com/pulse/postgresql-multi-master-using-bucardo-ashok-kumar/
+https://www.youtube.com/watch?v=DxkAbC83Cw8
+https://www.latcoding.com/notes/replication_1server
+
