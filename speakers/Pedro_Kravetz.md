@@ -7,6 +7,7 @@
 * Atuando com Free Software e Open Source.
 * Mais de 1 ano de experiência em ECM e BPM
 * Colaborador no projeto Open Source Camunda.
+* Participou como palestrante na Confloss
 
 # Mídias Sociais
 Linkedin.: https://www.linkedin.com/in/pedrokravetz/
