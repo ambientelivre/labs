@@ -2,14 +2,12 @@
 <img src="/speakers/img/willianedelfinopinheiro.jpg" alt="Williane Delfino Pinheiro" style="height: 200px; width:128px;"/>
 
 # Minio Bio 
-* Graduada em Pedagogia pela UFOPA.
-* Acadêmica de Análise e Desenvolvimento de Sistemas na UNAMA.
-* Vasta experiência como Gestora Pedagógica em ambientes não-escolares.
+* Graduada em Pedagogia pela UFOPA e em Análise e Desenvolvimento de Sistemas pela UNAMA.
 * Atuou como assistente de apoio à aprendizagem na AIESEC Argentina.
-* Integrou o time de desenvolvedores Back-end Compass.uol e Everymind, especializado em integrações Mulesoft.
-* Especialista em customização de ECM com Alfresco e BPM com Camunda.
-* Realizou treinamentos para equipes de gestão empresarial com Alfresco Digital Business Platform.
-* Contribuidora de projetos Open Source como Camunda.
+* Integrou o time de desenvolvedores back-end Compass.uol e Everymind, especializado em integrações com Mulesoft.
+* Especialista em customização de ECM com Alfresco, BPM com Camunda e CMS com Liferay.
+* Realizou treinamentos para equipes de gestão empresarial em Alfresco Digital Business Platform e Camunda 7.
+* Contribuidora de documentações de projetos Open Source como Camunda.
      
 # Mídias Sociais
 Linkedin.: https://www.linkedin.com/in/williane-pinheiro/
