@@ -8,7 +8,7 @@ https://github.com/projeto-cade-unb/camunda-bpm-portal
 
 
 ## Sander
-1 - Desenvolvimento Plugin Camunda Portal BPM Documentation para Cockpit do Camunda.
+1 - Desenvolvimento do Plugin Camunda Portal BPM Documentation para Cockpit do Camunda.
 https://github.com/projeto-cade-unb/camunda-bpm-portal
 
 ## Williane 
