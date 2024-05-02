@@ -3,7 +3,11 @@ Lista de trabalhos desenvolvidos em Pró da Comunidade Camunda  de Setembro de 2
 
 ## Marcio Junior Vieira
 
+1 - Elaboração e Planejamento do Plugin Camunda Portal BPM Documentation para Cockpit do Camunda.
+
+
 ## Sander
+1 - Desenvolvimento Plugin Camunda Portal BPM Documentation para Cockpit do Camunda.
 
 ## Williane 
 
