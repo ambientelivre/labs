@@ -12,7 +12,7 @@ https://github.com/projeto-cade-unb/Lime2Camunda
 3 - Mantenedor via projeto de Pesquisa junto a equipe da Universidade de Brasília do Projeto SEI Camunda Modeler , um integrador do Software SEI (https://softwarepublico.gov.br/social/profile/sei) com a modelagem de processos no Camuda Modeler.
 https://github.com/projeto-cade-unb/sei-camunda-modeler
 
-4- Contribuidor da tradução para pt_BR do Camunda 7 e todos seus Apps, em 2024 atualizou o Welcome App
+4- Contribuidora da tradução para pt_BR do Camunda 7 e todos seus Apps, em 2024 atualizou o Welcome App
 https://github.com/projeto-cade-unb/camunda-7-webapp-translations
 
 
