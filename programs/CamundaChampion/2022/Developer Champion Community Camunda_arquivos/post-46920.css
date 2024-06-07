@@ -1,0 +1,27 @@
+.elementor-46920 .elementor-element.elementor-element-14421f13 > .elementor-container{max-width:300px;}.elementor-46920 .elementor-element.elementor-element-14421f13:not(.elementor-motion-effects-element-type-background), .elementor-46920 .elementor-element.elementor-element-14421f13 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-46920 .elementor-element.elementor-element-14421f13, .elementor-46920 .elementor-element.elementor-element-14421f13 > .elementor-background-overlay{border-radius:10px 10px 10px 10px;}.elementor-46920 .elementor-element.elementor-element-14421f13{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:1.5rem 1.5rem 1.5rem 1.5rem;}.elementor-46920 .elementor-element.elementor-element-14421f13 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-46920 .elementor-element.elementor-element-62274a4b > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-46920 .elementor-element.elementor-element-62274a4b > .elementor-element-populated, .elementor-46920 .elementor-element.elementor-element-62274a4b > .elementor-element-populated > .elementor-background-overlay, .elementor-46920 .elementor-element.elementor-element-62274a4b > .elementor-background-slideshow{border-radius:10px 10px 10px 10px;}.elementor-46920 .elementor-element.elementor-element-4fd12800{text-align:center;}.elementor-46920 .elementor-element.elementor-element-4fd12800 img{width:100%;max-width:230px;height:100px;object-fit:contain;}.elementor-46920 .elementor-element.elementor-element-95734a9{--spacer-size:35px;}.elementor-46920 .elementor-element.elementor-element-7e22e417{font-family:"IBM Plex Sans", Sans-serif;font-weight:400;line-height:1.2em;}.elementor-46920 .elementor-element.elementor-element-4973b911 .elementor-button{background-color:#FFFFFF00;padding:0px 0px 0px 0px;}.elementor-46920 .elementor-element.elementor-element-4973b911 > .elementor-widget-container{margin:0.5rem 0rem 0rem 0rem;}/* Start custom CSS for text-editor, class: .elementor-element-7e22e417 */.elementor-46920 .elementor-element.elementor-element-7e22e417{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 6; /* number of lines to show */
+           line-clamp: 6; 
+   -webkit-box-orient: vertical;
+    
+}/* End custom CSS */
+/* Start custom CSS for button, class: .elementor-element-4973b911 */body:not(.elementor-editor-active) .elementor-46920 .elementor-element.elementor-element-4973b911, body:not(.elementor-editor-active) .elementor-46920 .elementor-element.elementor-element-4973b911 *{
+    position: static;
+    height: 0;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body:not(.elementor-editor-active) .elementor-46920 .elementor-element.elementor-element-4973b911 a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-14421f13 */.elementor-46920 .elementor-element.elementor-element-14421f13{
+    height:100%;
+}/* End custom CSS */

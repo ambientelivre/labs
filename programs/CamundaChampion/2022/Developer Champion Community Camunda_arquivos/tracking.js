@@ -1,0 +1,2 @@
+(function($){$('.tracking, .not-tracking').hide();const hs_cookie='__hs_do_not_track';const is_tracked=Cookies.get(hs_cookie)!=='yes'?!0:!1;if(is_tracked)$('.tracking').show();else $('.not-tracking').show();$('.doNotTrack').on('click',()=>{if(window._hsq){window._hsq.push(['doNotTrack']);window._hsp.push(['revokeCookieConsent'])}else{Cookies.set(hs_cookie,'yes')}
+window.location.reload()});$('.doTrack').on('click',()=>{if(window._hsq)window._hsq.push(['doNotTrack',{track:!0}]);else Cookies.set(hs_cookie,'no');window.location.reload()})})(jQuery)
