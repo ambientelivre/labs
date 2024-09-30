@@ -48,3 +48,4 @@ https://github.com/ambientelivre/camunda-7-webapp-translations
 
 ## Pedro
 
+1 - Palestrante na Confloss 2023 com o título: ** Orquestração de Microsserviços em Java com Camunda Plataform 8**
