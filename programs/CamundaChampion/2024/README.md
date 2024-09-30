@@ -9,22 +9,28 @@ https://github.com/projeto-cade-unb/camunda-bpm-portal
 2 - Elaboração e Planejamento do Plugin Camunda **Camunda Task Activity** para Tasklist do Camunda.
 https://github.com/projeto-cade-unb/camunda-bpm-portal
 
-2 - Mantenedor do Projeto **Lime2Camunda** que integra pesquisas a processos no Camunda.
+3 - Mantenedor do Projeto **Lime2Camunda** que integra pesquisas a processos no Camunda.
 https://github.com/projeto-cade-unb/Lime2Camunda
 
-3 - Mantenedor via projeto de Pesquisa junto a equipe da Universidade de Brasília do Projeto SEI Camunda Modeler , um integrador do Software SEI (https://softwarepublico.gov.br/social/profile/sei) com a modelagem de processos no Camuda Modeler.
+4 - Mantenedor via projeto de Pesquisa junto a equipe da Universidade de Brasília do Projeto SEI Camunda Modeler , um integrador do Software SEI (https://softwarepublico.gov.br/social/profile/sei) com a modelagem de processos no Camuda Modeler.
 https://github.com/projeto-cade-unb/sei-camunda-modeler
 
-4- Contribuidor da tradução para pt_BR do Camunda 7 e todos seus Apps, em 2024 atualizou o Welcome App
+5- Contribuidor da tradução para pt_BR do Camunda 7 e todos seus Apps, em 2024 atualizou o Welcome App
 https://github.com/projeto-cade-unb/camunda-7-webapp-translations
+
+6 - Desenvolvimento de exemplos de uso de Minimap e BPMN.io para disseminar conhecimento a novos users front-end Camunda 
+https://github.com/projeto-cade-unb/samples-bpmnio
 
 
 ## Sander
 1 - Desenvolvimento do Plugin Camunda Server **Portal BPM Documentation** integrado com Cockpit do Camunda e com visibilidade independente publicamente.
 https://github.com/projeto-cade-unb/camunda-bpm-portal
 
-1 - Desenvolvimento do Plugin para Camunda Server **Camunda Task Activity** para Cockpit do Camunda.
+2 - Desenvolvimento do Plugin para Camunda Server **Camunda Task Activity** para Cockpit do Camunda.
 https://github.com/ambientelivre/camunda-task-activity-plugin
+
+3 - Desenvolvimento de exemplos de uso de Minimap e BPMN.io para disseminar conhecimento a novos users front-end Camunda 
+https://github.com/projeto-cade-unb/samples-bpmnio
 
 ## Williane 
 
