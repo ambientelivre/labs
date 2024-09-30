@@ -37,8 +37,14 @@ https://github.com/projeto-cade-unb/camunda-bpm-portal
 2 - Desenvolvimento do Plugin para Camunda Server **Camunda Task Activity** para Cockpit do Camunda.
 https://github.com/ambientelivre/camunda-task-activity-plugin
 
-3 - Desenvolvimento de exemplos de uso de Minimap e BPMN.io para disseminar conhecimento a novos users front-end Camunda 
+
+3 - Desenvolvimento do Plugin para Camunda Server **Camunda Task History Plugin** para Cockpit e Tasklist do Camunda.
+https://github.com/ambientelivre/camunda-task-history-plugin
+
+4 - Desenvolvimento de exemplos de uso de Minimap e BPMN.io para disseminar conhecimento a novos users front-end Camunda 
 https://github.com/projeto-cade-unb/samples-bpmnio
+
+
 
 ## Williane 
 
