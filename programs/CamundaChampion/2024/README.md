@@ -3,7 +3,7 @@ Lista de trabalhos desenvolvidos em Pró da Comunidade Camunda  de Setembro de 2
 
 ## Marcio Junior Vieira
 
-1 - Elaboração e Planejamento do Plugin Camunda **Portal BPM Documentation** para Cockpit do Camunda.
+1 - Elaboração, Planejamento e apoio no desenvolvimento do Plugin Camunda **Portal BPM Documentation** para Cockpit do Camunda.
 https://github.com/projeto-cade-unb/camunda-bpm-portal 
 
 2 - Elaboração e Planejamento do Plugin Camunda **Camunda Task Activity** para Tasklist do Camunda.
@@ -15,10 +15,14 @@ https://github.com/projeto-cade-unb/Lime2Camunda
 4 - Mantenedor via projeto de Pesquisa junto a equipe da Universidade de Brasília do Projeto SEI Camunda Modeler , um integrador do Software SEI (https://softwarepublico.gov.br/social/profile/sei) com a modelagem de processos no Camuda Modeler.
 https://github.com/projeto-cade-unb/sei-camunda-modeler
 
-5- Contribuidor da tradução para pt_BR do Camunda 7 e todos seus Apps, em 2024 atualizou o Welcome App
+5 - Mantenedor via projeto de Pesquisa do Plugin **Plus UI Camunda Modeler**.
+https://github.com/projeto-cade-unb/plus-ui-camunda-modeler
+
+
+6- Contribuidor da tradução para pt_BR do Camunda 7 e todos seus Apps, em 2024 atualizou o Welcome App
 https://github.com/projeto-cade-unb/camunda-7-webapp-translations
 
-6 - Desenvolvimento de exemplos de uso de Minimap e BPMN.io para disseminar conhecimento a novos users front-end Camunda 
+7 - Desenvolvimento de exemplos de uso de Minimap e BPMN.io para disseminar conhecimento a novos users front-end Camunda 
 https://github.com/projeto-cade-unb/samples-bpmnio
 
 
