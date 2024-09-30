@@ -48,4 +48,7 @@ https://github.com/ambientelivre/camunda-7-webapp-translations
 
 ## Pedro
 
-1 - Palestrante na Confloss 2023 com o título: ** Orquestração de Microsserviços em Java com Camunda Plataform 8**
+1 - Palestrante na CONFLOSS 2023 (Conferência de Free/Libre e Open Source Software) com o título: ** Orquestração de Microsserviços em Java com Camunda Plataform 8**
+https://confloss.com.br/
+https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2023/Orquestracao_de_mircrosservicos_com_Camunda.md
+
