@@ -20,7 +20,7 @@ https://github.com/projeto-cade-unb/camunda-7-webapp-translations
 
 
 ## Sander
-1 - Desenvolvimento do Plugin Camunda Server **Portal BPM Documentation** para Cockpit do Camunda.
+1 - Desenvolvimento do Plugin Camunda Server **Portal BPM Documentation** integrado com Cockpit do Camunda e com visibilidade independente publicamente.
 https://github.com/projeto-cade-unb/camunda-bpm-portal
 
 1 - Desenvolvimento do Plugin para Camunda Server **Camunda Task Activity** para Cockpit do Camunda.
