@@ -1,5 +1,5 @@
 # Trabalhos a enviar para Camunda Champion 2024
-Lista de trabalhos desenvolvidos em Pró da Comunidade Camunda  de Setembro de 2023 a Set de 2024.
+Lista de trabalhos desenvolvidos em Pró da Comunidade Camunda de Setembro de 2023 a Set de 2024.
 
 ## Marcio Junior Vieira
 
@@ -31,15 +31,14 @@ https://github.com/projeto-cade-unb/samples-bpmnio
 
 
 ## Sander
-1 - Desenvolvimento do Plugin Camunda Server **Portal BPM Documentation** integrado com Cockpit do Camunda e com visibilidade independente publicamente.
+1 - Desenvolvimento do Plugin Camunda Platform **Portal BPM Documentation** integrado com Cockpit do Camunda e com visibilidade independente publicamente.
 https://github.com/projeto-cade-unb/camunda-bpm-portal
 
-2 - Desenvolvimento do Plugin para Camunda Server **Camunda Task Activity** para Cockpit do Camunda.
-https://github.com/ambientelivre/camunda-task-activity-plugin
+2 - Desenvolvimento do Plugin para Camunda Platform **Camunda Task Activity** para Tasklist do Camunda.
+- Este plugin mostra histórico de atividades e tarefas durante o processo https://github.com/ambientelivre/camunda-task-activity-plugin
 
-
-3 - Desenvolvimento do Plugin para Camunda Server **Camunda Task History Plugin** para Cockpit e Tasklist do Camunda.
-https://github.com/ambientelivre/camunda-task-history-plugin
+3 - Desenvolvimento do Plugin para Camunda Platform **Camunda Task History Plugin** para Tasklist do Camunda.
+- Esse plugin exibe os históricos das tarefas completadas durante a execução do processo https://github.com/ambientelivre/camunda-task-history-plugin
 
 4 - Desenvolvimento de exemplos de uso de Minimap e BPMN.io para disseminar conhecimento a novos users front-end Camunda 
 https://github.com/projeto-cade-unb/samples-bpmnio
