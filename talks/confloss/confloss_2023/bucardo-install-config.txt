@@ -33,13 +33,15 @@ mkdir /var/run/bucardo
 nano /etc/postgresql/15/main/pg_hba.conf
 
 adicionar as linhas a seguir:
-
+# Database administrative login by Unix domain socket
 local   all             bucardo                                 trust
 
+# "local" is for Unix domain socket connections only
 local   all             bucardo                                 trust
 
+# IPv4 local connections:
 host    all             all             127.0.0.1/32            trust
-
+# IPv6 local connections:
 host    all             all             ::1/128                 trust
 
 
