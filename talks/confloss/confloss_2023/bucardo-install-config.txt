@@ -78,7 +78,11 @@ Current connection settings:
 3. User:           postgres  *** DIGITE 3 e ALTERE ESTE de bucardo para postgres
 4. Database:       bucardo   
 5. PID directory:  /var/run/bucardo
-Enter a number to change it, P to proceed, or Q to quit: 3 depois P
+Enter a number to change it, P to proceed, or Q to quit: 
+
+3 depois digite postgres
+4 depois digite postgres
+depois P
 
 # confira o database e usuarios criado.
 psql -U postgres postgres
