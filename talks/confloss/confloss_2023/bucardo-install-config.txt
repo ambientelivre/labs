@@ -2,9 +2,7 @@
 https://www.ambientelivre.com.br/treinamentos/hackonline/hack-sandbox-zero-ambiente-livre.ova
 
 
-# Hacks Bucardo.
-
-1) Colocar VMs em modo NAT (para realizar downloads de internet)
+# Hacks Bucardo..
 
 2) Instalar pré-Requisitos (Perl e libs)
 sudo apt install perl postgresql-plperl-15 libdbix-safe-perl libperl-dev libanyevent-dbd-pg-perl libpod-parser-perl libcgi-application-plugin-anytemplate-perl
