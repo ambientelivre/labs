@@ -1,6 +1,7 @@
 
 https://www.ambientelivre.com.br/treinamentos/hackonline/hack-sandbox-zero-ambiente-livre.ova
 
+https://www.ambientelivre.com.br/treinamentos/hackonline/hack-sandbox-zero-postgresql-demo.ova (com postgresql 15 e libs já instalado)
 
 # Hacks Bucardo..
 
