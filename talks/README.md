@@ -1,5 +1,7 @@
 # Lista de Palestra Apresentadas pela Ambiente Livre em Eventos Open Source, Free Software entre outros.
 
+Simbologia:
+ 🚨 Material em elaboração.
 
 ## FISL
 
