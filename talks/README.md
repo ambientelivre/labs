@@ -35,7 +35,7 @@ Apresentaremos como podemos usar e tratar dados para executa-los e capturar seus
 ### PGConf Brasil 2024
 Palestra: Implementando um Cluster Master Master no PostgreSQL com Bucardo.
 
-[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/pgconf/2024/Implementando_Cluster_Master-Master_no_PostgreSQL_com_Bucardo.pdf(
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/pgconf/2024/Implementando_Cluster_Master-Master_no_PostgreSQL_com_Bucardo.pdf)
 
 ### PGConf Brasil 2025 
 PgVector e LLMs: PostgreSQL como base para IA Generativa e Busca Semântica
