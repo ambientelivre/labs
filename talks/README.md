@@ -1,18 +1,13 @@
 # Lista de Palestra Apresentadas pela Ambiente Livre em Eventos Open Source, Free Software entre outros.
 
 
+## FISL
+
+
 ## Latinoware
 
 ### Latinoware 2021
 Apache Hop - A última geração em orquestração de dados
-
-
-## TICNova
-
-### Ticnova 2017
-
-Elaborando uma plataforma de Big Data & Analytics 100% Open Source com apoio do Pentaho.
-
 
 ## ConFLOSS
 
@@ -28,3 +23,17 @@ Apresentaremos como podemos usar e tratar dados para executa-los e capturar seus
 [Assista no YouTube da ConFLOSS](https://www.youtube.com/watch?v=TcmHt171DP4&t=1299s)
 
 ### ConFLOSS 2022
+
+## The Developers Conference - TDC
+
+### TDC 2024
+
+### TDC 2024
+
+## TICNova
+
+### Ticnova 2017
+
+Elaborando uma plataforma de Big Data & Analytics 100% Open Source com apoio do Pentaho.
+
+
