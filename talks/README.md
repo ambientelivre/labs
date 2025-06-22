@@ -26,9 +26,20 @@ Apresentaremos como podemos usar e tratar dados para executa-los e capturar seus
 
 ## The Developers Conference - TDC
 
-### TDC 2024
+### TDC IA Summit Brasília - 2024
+Palestra: Kubeflow: Machine Learning em escala
 
-### TDC 2024
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2025/Kubeflow-Machine-Learning-em-escala.pdf)
+
+### TDC Floripa - 2025
+Palestra: Kubeflow: Machine Learning em escala
+
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2025/Kubeflow-Machine-Learning-em-escala.pdf)
+
+Palestra: SQL OLA Massivas com Apache Doris 
+
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2025/SQL-OLAP-Massivas-Apache-Doris.pdf)
+
 
 ## TICNova
 
