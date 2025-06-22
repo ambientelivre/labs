@@ -1,7 +1,4 @@
-
-
-
-
+## Lista de Palestra Apresentadas pela Ambiente Livre em Eventos Open Source, Free Software entre outros.
 
 
 ## Latinoware
@@ -19,13 +16,13 @@ Elaborando uma plataforma de Big Data & Analytics 100% Open Source com apoio do 
 
 ## Confloss
 
-### Conflos 2021
+### Confloss 2021
  
 Palestra: Low Code Data Science with Pentaho Machine Intelligence
- 
+
 Resumo da palestra:
 Apresentaremos como podemos usar e tratar dados para executa-los e capturar seus resultados de forma automatizada para automação corporativa de processos de IA ou ML usando as ferramenta Pentaho Data Integration e a Weka/PMI ( Pentaho Machine Intelligence) e um case será desenvolvido ao vivo.
+
 Slides: https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2021/low-code-data-science-with-pentaho-machine-intelligence.pdf
+
 Youtube : https://www.youtube.com/watch?v=TcmHt171DP4&t=1299s
-
-
