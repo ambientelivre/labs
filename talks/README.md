@@ -25,6 +25,8 @@ Apresentaremos como podemos usar e tratar dados para executa-los e capturar seus
 
 Slides: https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2021/low-code-data-science-with-pentaho-machine-intelligence.pdf
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TcmHt171DP4?si=b8gnpt2HxaPpnXsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Youtube : https://www.youtube.com/watch?v=TcmHt171DP4&t=1299s
 
 ### ConFLOSS 2022
