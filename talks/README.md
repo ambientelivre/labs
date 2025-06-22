@@ -23,7 +23,7 @@ Palestra: Low Code Data Science with Pentaho Machine Intelligence
 Resumo da palestra:
 Apresentaremos como podemos usar e tratar dados para executa-los e capturar seus resultados de forma automatizada para automação corporativa de processos de IA ou ML usando as ferramenta Pentaho Data Integration e a Weka/PMI ( Pentaho Machine Intelligence) e um case será desenvolvido ao vivo.
 
-Slides: https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2021/low-code-data-science-with-pentaho-machine-intelligence.pdf
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2021/low-code-data-science-with-pentaho-machine-intelligence.pdf)
 
 [Assista no YouTube da ConFLOSS](https://www.youtube.com/watch?v=TcmHt171DP4&t=1299s)
 
