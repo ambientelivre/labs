@@ -30,6 +30,15 @@ Apresentaremos como podemos usar e tratar dados para executa-los e capturar seus
 
 ### ConFLOSS 2025
 
+## PGConf Brasil
+
+### PGConf Brasil 2024
+
+### PGConf Brasil 2025 
+PgVector e LLMs: PostgreSQL como base para IA Generativa e Busca Semântica
+
+
+
 
 ## The Developers Conference - TDC
 
