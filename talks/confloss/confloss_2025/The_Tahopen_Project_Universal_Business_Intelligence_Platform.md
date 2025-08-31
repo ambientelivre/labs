@@ -7,7 +7,7 @@ Quando o Pentaho fechou a janela, o Tahopen escancarou a porta. Nesta palestra, 
 
 O que vamos abordar:
 
- O que é o Tahopen: uma plataforma de Business Intelligence de código aberto
+O que é o Tahopen: uma plataforma de Business Intelligence de código aberto
 De onde veio: fork do Pentaho 10.1 após sua mudança de licença
 Pra que veio: manter a essência do BI com liberdade e flexibilidade
 O que faz: dashboards, relatórios, integração de fontes e exploração de dados
