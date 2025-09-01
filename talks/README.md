@@ -53,6 +53,23 @@ Se antigamente cientista trabalhava em laboratório com jaleco e pipeta, hoje el
 [Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/confloss/confloss_2025/Apache_Zeppelin_O_Laboratorio_Open_Source_para_Cientistas_de_Dados.pdf)
 
 
+## Open Source Friday Brasil
+
+Apresentação para o Github Brasil
+
+Palestra: The Tahopen Project – Universal Business Intelligence Platform 
+
+Resumo da palestra:
+O que é o Tahopen: uma plataforma de Business Intelligence de código aberto
+De onde veio: fork do Pentaho 10.1 após sua mudança de licença
+Pra que veio: manter a essência do BI com liberdade e flexibilidade
+O que faz: dashboards, relatórios, integração de fontes e exploração de dados
+Por que importa: alternativa colaborativa, escalável e sem barreiras para análise de dados
+Como participar: contribuições com código, ideias ou testes são bem-vindas — aqui, todo mundo é stakeholder
+
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/Open_Source_Friday_Brasil/The_Tahopen_Project_Universal_Business_Intelligence_Platform.pdf)
+
+
 ## PGConf Brasil
 
 ### PGConf Brasil 2024
