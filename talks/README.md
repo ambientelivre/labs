@@ -103,6 +103,13 @@ Palestra: SQL OLA Massivas com Apache Doris
 [Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2025/SQL-OLAP-Massivas-Apache-Doris.pdf)
 
 
+### TDC IA Summit São Paulo - 2026
+Palestra: Vector Search Open Source para RAG: O que Aprendemos com Solr e PostgreSQL
+
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2026/Marcio-Junior-Vieira-Vector-Search-Open-Source-RAG-Solr-PostgreSQL.pdf)
+
+
+
 ## TICNova
 
 ### Ticnova 2017
