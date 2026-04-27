@@ -1,0 +1,113 @@
+
+1. 
+
+create database tdc;
+
+
+2. install pgvector libs
+
+apt install postgresql-17-pgvector;
+
+sudo apt install pip
+pip install psycopg2-binary numpy
+pip install sentence-transformers
+
+systemctl restart postgresql
+
+
+3. criar extensão.
+
+CREATE EXTENSION IF NOT EXISTS vector;
+
+4. nano vector.py
+
+import psycopg2
+
+# =========================
+# CONFIG CONEXÃO
+# =========================
+conn = psycopg2.connect(
+    host="localhost",
+    database="tdc",
+    user="postgres",
+    password="postgres"
+)
+
+cur = conn.cursor()
+
+# =========================
+# 1. EXTENSÃO pgvector
+# =========================
+cur.execute("""
+CREATE EXTENSION IF NOT EXISTS vector;
+""")
+
+# =========================
+# 2. CRIAR TABELA
+# define vetor de dimensão 3
+# (no mundo real: 384, 768, 1536…)
+# =========================
+cur.execute("""
+DROP TABLE IF EXISTS documents;
+
+CREATE TABLE documents (
+    id SERIAL PRIMARY KEY,
+    content TEXT,
+    embedding VECTOR(3)
+);
+""")
+
+# =========================
+# 3. INSERIR DADOS
+# =========================
+docs = [
+    ("gato preto", [0.1, 0.2, 0.3]),
+    ("cachorro branco", [0.2, 0.1, 0.4]),
+    ("carro vermelho", [0.9, 0.8, 0.7]),
+    ("pizza de queijo", [0.3, 0.25, 0.2]),
+]
+
+for content, emb in docs:
+    cur.execute(
+        "INSERT INTO documents (content, embedding) VALUES (%s, %s::vector)",
+        (content, str(emb))  # converte lista -> string '[...]'
+    )
+
+conn.commit()
+
+# =========================
+# 4. BUSCA VETORIAL
+# calcula distância (L2) embedding <-> query_vector
+# =========================
+query_vector = "[0.1,0.2,0.25]"
+
+cur.execute("""
+SELECT id, content,
+       embedding <-> %s::vector AS distance
+FROM documents
+ORDER BY distance
+LIMIT 3;
+""", (query_vector,))
+
+results = cur.fetchall()
+
+# =========================
+# 5. RESULTADOS
+# =========================
+print("\n Resultados mais próximos:\n")
+
+for row in results:
+    print(f"id={row[0]} | texto='{row[1]}' | distância={row[2]:.4f}")
+
+# =========================
+# FINALIZAR
+# =========================
+cur.close()
+conn.close()
+
+
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer('all-MiniLM-L6-v2')
+embedding = model.encode("Contrato prestação de serviços")
+print(embedding)
+
