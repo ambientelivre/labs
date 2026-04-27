@@ -104,7 +104,9 @@ Palestra: SQL OLA Massivas com Apache Doris
 
 
 ### TDC IA Summit São Paulo - 2026
-Palestra: Vector Search Open Source para RAG: O que Aprendemos com Solr e PostgreSQL
+Palestra: Vector Search Open Source para RAG: O que Aprendemos com Solr e PostgreSQL.
+
+Resumo: A adoção de RAG colocou o Vector Search no centro das arquiteturas de IA. Mas é realmente necessário um Vector Database dedicado ? Nesta palestra, compartilhamos nossa experiência implementando busca vetorial Open Source com Apache Solr (Dense Vectors) e PostgreSQL com pgVector. Abordaremos modelagem, indexação (HNSW e IVFFlat), hybrid search, filtros estruturados, integração com Lakehouse e trade-offs arquiteturais. O objetivo é discutir aprendizados reais e critérios técnicos para decisões conscientes em projetos de RAG. 
 
 [Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2026/Marcio-Junior-Vieira-Vector-Search-Open-Source-RAG-Solr-PostgreSQL.pdf)
 
