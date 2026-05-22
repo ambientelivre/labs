@@ -106,7 +106,7 @@ Palestra: SQL OLA Massivas com Apache Doris
 ### TDC IA Summit São Paulo - 2026
 Palestra: Vector Search Open Source para RAG: O que Aprendemos com Solr e PostgreSQL.
 
-Resumo: A adoção de RAG colocou o Vector Search no centro das arquiteturas de IA. Mas é realmente necessário um Vector Database dedicado ? Nesta palestra, compartilhamos nossa experiência implementando busca vetorial Open Source com Apache Solr (Dense Vectors) e PostgreSQL com pgVector. Abordaremos modelagem, indexação (HNSW e IVFFlat), hybrid search, filtros estruturados, integração com Lakehouse e trade-offs arquiteturais. O objetivo é discutir aprendizados reais e critérios técnicos para decisões conscientes em projetos de RAG. 
+Resumo: A adoção de RAG colocou o Vector Search no centro das arquiteturas de IA. Mas é realmente necessário um Vector Database dedicado ? Nesta palestra, compartilhamos nossa experiência implementando busca vetorial Open Source com Apache Solr (Dense Vectors) e PostgreSQL com pgVector. Abordaremos modelagem, indexação (HNSW e IVFFlat), hybrid search, filtros estruturados, integração com Lakehouse e trade-offs arquiteturais. O objetivo é discutir aprendizados reais e critérios técnicos para decisões conscientes em projetos de RAG. 
 
 [Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2026/Marcio-Junior-Vieira-Vector-Search-Open-Source-RAG-Solr-PostgreSQL.pdf)
 
@@ -117,5 +117,17 @@ Resumo: A adoção de RAG colocou o Vector Search no centro das arquiteturas de 
 ### Ticnova 2017
 
 Elaborando uma plataforma de Big Data & Analytics 100% Open Source com apoio do Pentaho.
+
+
+##  Seminário Banestes de Tecnologia e Negócio 
+
+### 2026
+Palestra: Catálogo, Linhagem e Qualidade de Dados: da Teoria à Prática com OpenMetadata + Soda para a RC18
+
+Resumo: Esta apresentação abordará os conceitos de Catálogo, Linhagem e Qualidade de Dados, demonstrando na prática como o OpenMetadata e o Soda podem apoiar iniciativas de Governança de Dados, BI, Analytics e IA, além de contribuir para requisitos de rastreabilidade, confiabilidade e conformidade relacionados à RC18 do Banco Central.
+
+Serão apresentados casos de uso reais e exemplos práticos de integração entre catálogo, lineage e monitoramento contínuo da qualidade de dados, evidenciando os benefícios operacionais e estratégicos para a organização.
+
+Slides da Apresentação em Breve!
 
 
