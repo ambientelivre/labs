@@ -2,9 +2,9 @@
 <img src="/speakers/img/marciojuniorvieira.jpg" alt="Marcio Junior Vieira" style="height: 200px; width:200px;"/>
 
 # Minio Bio
-* 24 anos de experiência em TI, vivência em desenvolvimento e análise de sistemas de gestão empresarial e ciência de dados.
+* 26 anos de experiência em TI, vivência em desenvolvimento e análise de sistemas de gestão empresarial e ciência de dados.
 * CEO da Ambiente Livre atuando como Cientista de Dados, Engenheiro de Dados e Arquiteto de Software.
-* Pesquisador pela UNB no Laboratório de tecnologias de tomada de decisão (LATITUDE).
+* Atuou como Pesquisador pela UNB no Laboratório de tecnologias de tomada de decisão (LATITUDE) e e pela Universidade Federal de Goiás no CIAP - Centro de Colaboração Interinstitucional de Inteligência Artificial Aplicada às Políticas Públicas 
 * Atuou como Professor de Data Science, Big Data, Inteligência Artificial e Business Inteligence nas Universidades Positivo e FIAP.
 * Trabalhando com Free Software e Open Source desde 2000 com serviços de consultoria e treinamento.
 * Graduado em Tecnologia em Informática(2004) e pós-graduado em Software Livre(2005) ambos pela UFPR.
