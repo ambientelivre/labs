@@ -128,6 +128,7 @@ Resumo: Esta apresentação abordará os conceitos de Catálogo, Linhagem e Qual
 
 Serão apresentados casos de uso reais e exemplos práticos de integração entre catálogo, lineage e monitoramento contínuo da qualidade de dados, evidenciando os benefícios operacionais e estratégicos para a organização.
 
-Slides da Apresentação em Breve!
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/seminario_banestes/2026/Catalogo_Linhagem_Qualidade_Dados_Teoria_Pratica_OpenMetadata_Soda_RC18.pdf)
+
 
 
