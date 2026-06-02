@@ -1,0 +1,8 @@
+data_source postgres_db:
+  type: postgres
+  host: postgresql # O nome do serviço do seu container Postgres no docker-compose
+  port: 5432
+  username: postgres # Mude para o usuário correto do seu compose
+  password: password # Mude para a senha correta do seu compose
+  database: bank # Mude para o nome do banco das transações
+  schema: public

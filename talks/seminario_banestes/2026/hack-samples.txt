@@ -1,0 +1,272 @@
+
+
+1 . Crie duas tabelas 
+
+docker exec -it  openmetadata_postgresql /bin/bash 
+
+su postgres
+
+psql 
+
+
+CREATE DATABASE bank_banestes;
+
+\c bank;
+
+CREATE EXTENSION IF NOT EXISTS pg_stat_statements;
+GRANT SELECT ON pg_stat_statements TO openmetadata_user;
+
+-- 1. Criação da tabela de Contas
+
+CREATE TABLE contas (
+    id SERIAL PRIMARY KEY,
+    titular VARCHAR(100) NOT NULL,
+    numero_conta VARCHAR(20) UNIQUE NOT NULL,
+    saldo NUMERIC(15, 2) NOT NULL DEFAULT 0.00,
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT saldo_positivo CHECK (saldo >= 0.00) 
+);
+
+
+-- 2. Criação da tabela de Transações (Histórico)
+CREATE TABLE transacoes (
+    id SERIAL PRIMARY KEY,
+    conta_id INT NOT NULL,
+    tipo VARCHAR(10) NOT NULL, -- 'DEPOSITO' ou 'SAQUE'
+    valor NUMERIC(15, 2) NOT NULL,
+    data_transacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_conta FOREIGN KEY (conta_id) REFERENCES contas(id) ON DELETE CASCADE,
+    CONSTRAINT tipo_valido CHECK (tipo IN ('DEPOSITO', 'SAQUE')),
+    CONSTRAINT valor_positivo CHECK (valor > 0.00)
+);
+
+\dt 
+
+2. Populando os Dados.
+
+
+INSERT INTO contas (titular, numero_conta, saldo)
+SELECT 
+    -- Combina um nome e um sobrenome aleatórios da lista
+    (array['Ana', 'Bruno', 'Carlos', 'Daniela', 'Eduardo', 'Fernanda', 'Gabriel', 'Helena', 'Igor', 'Juliana', 'Lucas', 'Mariana', 'Pedro', 'Rafaela', 'Rodrigo', 'Sofia', 'Tiago', 'Vanessa'])[floor(random() * 18 + 1)] || ' ' ||
+    (array['Silva', 'Santos', 'Oliveira', 'Souza', 'Rodrigues', 'Ferreira', 'Alves', 'Pereira', 'Lima', 'Gomes', 'Costa', 'Ribeiro', 'Martins', 'Carvalho', 'Almeida', 'Lopes', 'Soares'])[floor(random() * 17 + 1)] AS titular,
+    
+    -- Gera um número de conta único baseado no ID do loop (ex: 100001-9, 100002-9...)
+    (100000 + i)::text || '-' || floor(random() * 9 + 1)::text AS numero_conta,
+    
+    -- Gera um saldo aleatório entre R$ 100,00 e R$ 10.000,00
+    ROUND((random() * (10000 - 100) + 100)::numeric, 2) AS saldo
+FROM generate_series(1, 100) AS i;
+
+
+DO $$
+DECLARE
+    v_conta_id INT;
+    v_tipo VARCHAR(10);
+    v_valor NUMERIC(15, 2);
+    v_saldo_atual NUMERIC(15, 2);
+BEGIN
+    FOR i IN 1..1000 LOOP
+        -- 1. Sorteia uma conta existente (ID entre 1 e 100)
+        v_conta_id := floor(random() * 100 + 1);
+        
+        -- 2. Sorteia o tipo de transação (50% de chance para cada)
+        IF random() < 0.5 THEN
+            v_tipo := 'DEPOSITO';
+            v_valor := ROUND((random() * (2000 - 10) + 10)::numeric, 2); -- R$ 10 a R$ 2000
+        ELSE
+            v_tipo := 'SAQUE';
+            -- Busca o saldo atual para não deixar a conta negativa (respeitando o CHECK CONSTRAINT)
+            SELECT saldo INTO v_saldo_atual FROM contas WHERE id = v_conta_id;
+            v_valor := ROUND((random() * (500 - 5) + 5)::numeric, 2); -- R$ 5 a R$ 500
+            
+            -- Se o saque for maior que o saldo, vira depósito para não quebrar a execução
+            IF v_valor > v_saldo_atual THEN
+                v_tipo := 'DEPOSITO';
+            END IF;
+        END IF;
+
+        -- 3. Insere a transação
+        INSERT INTO transacoes (conta_id, tipo, valor, data_transacao)
+        VALUES (
+            v_conta_id, 
+            v_tipo, 
+            v_valor, 
+            -- Gera datas retroativas espalhadas nos últimos 30 dias
+            CURRENT_TIMESTAMP - (random() * INTERVAL '30 days')
+        );
+
+        -- 4. Atualiza o saldo correspondente na tabela de contas
+        IF v_tipo = 'DEPOSITO' THEN
+            UPDATE contas SET saldo = saldo + v_valor WHERE id = v_conta_id;
+        ELSE
+            UPDATE contas SET saldo = saldo - v_valor WHERE id = v_conta_id;
+        END IF;
+        
+    END LOOP;
+END $$;
+
+
+SELECT COUNT(*) AS total_de_contas FROM contas;
+
+SELECT 
+    c.titular,
+    c.numero_conta,
+    t.tipo,
+    t.valor,
+    t.data_transacao,
+    c.saldo AS saldo_atual
+FROM transacoes t
+JOIN contas c ON t.conta_id = c.id
+ORDER BY t.data_transacao DESC;
+
+
+
+3. Crie uma view para visualizarmos uma linhagem 
+
+
+CREATE VIEW vw_indicadores_financeiros AS
+SELECT 
+    c.id AS conta_id,
+    c.titular,
+    c.numero_conta,
+    c.saldo AS saldo_atual,
+    COUNT(t.id) AS total_movimentacoes,
+    SUM(CASE WHEN t.tipo = 'DEPOSITO' THEN t.valor ELSE 0 END) AS total_depositado,
+    SUM(CASE WHEN t.tipo = 'SAQUE' THEN t.valor ELSE 0 END) AS total_sacado,
+    AVG(t.valor) FILTER (WHERE t.tipo = 'SAQUE') AS media_valor_saques
+FROM contas c
+LEFT JOIN transacoes t ON c.id = t.conta_id
+GROUP BY c.id, c.titular, c.numero_conta, c.saldo;
+
+
+4. Criando um Service Database
+
+
+  http://localhost:8585
+
+ - Configurações - Serviços - Database.
+ 
+   Hostname: postgresql:5432
+   User:postgres
+   Senha:password
+   
+ 
+5. Consulte a Linhagem de uma tabela
+
+  - na Barra do OpenMetadata procure por "conta"
+
+  - Clique em Linhagem.
+
+
+6. Explorar e Validar os Dados no Catálogo
+ 
+  - na Barra do OpenMetadata procure por "conta"
+
+  - Em colunas pode ver todas os tipos de campos.   
+  
+ 
+7 . Enriquecer os Metadados (Documentação)
+
+  - na Barra do OpenMetadata procure por "conta"
+
+  - Clique em Coluna e vai em "Saldo"
+  
+  - Passe o Mouse e o botão editar sera aberto
+  
+  - informa no campo "Nome de Exibição" : Saldo consolidado atual do correntista em Reais.
+
+
+
+8. Criando uma metrica de débito.
+
+  - na Barra do OpenMetadata procure por "transacoes"
+  
+  - Adicionar - Metrica Personalizada
+  
+  - metrica_total_debitos
+  
+SELECT COUNT(*)
+FROM transacoes
+WHERE tipo = 'SAQUE';  
+
+
+9. Ativando Agendamentos 
+
+  - na Barra do OpenMetadata procure por "Bank"
+  
+  - Clique em agentes
+  
+  - Agregar Criador de Perfil agente
+  
+  - Manter o Padrão e Proximo
+  
+  - Manter Agendamento Padrão Salvar.
+
+
+10. Teste de Fraude ou Anomalia (Saques Muito Altos)
+
+Em sistemas bancários, saques acima de um determinado valor (por exemplo, R$ 10.000,00) precisam de aprovação especial ou auditoria. Vamos criar um teste que pega se alguma transação quebrou essa regra.
+
+custom SQL
+
+SELECT id, valor 
+FROM transacoes 
+WHERE tipo = 'SAQUE' AND valor > 10000.00;
+
+*Rows
+*==
+*0
+
+* ele vai criar um "gasoduto" , rodar...
+
+Rodar Agent Profiler.
+
+11. Testando Soda
+
+veja os arquivos da pasta SODA.
+
+docker compose exec soda-core soda scan -d postgres_db -c configuration.yml checks.yml
+
+
+12. - Dados sensiveis
+
+ - Entrar no Agente autoClassification
+ - Habilitar Store Sample Data
+ - Depois mudar o campo para PI sensitive
+
+
+13. Criar o Usuário "Consumidor de Dados"
+
+
+14. Criar dois Dominios.
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

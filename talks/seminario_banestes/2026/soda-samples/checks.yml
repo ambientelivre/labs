@@ -1,0 +1,9 @@
+checks for transacoes:
+  - row_count > 0
+  
+  - failed rows:
+      name: Saques suspeitos acima de 10k
+      fail query: |
+        SELECT id, valor 
+        FROM transacoes 
+        WHERE tipo = 'SAQUE' AND valor > 10000.00
