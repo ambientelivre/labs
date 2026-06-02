@@ -9,3 +9,6 @@ Nesta apresentação, serão abordados os conceitos de Catálogo de Dados, Data 
 A sessão apresentará na prática como o OpenMetadata e o Soda podem apoiar a jornada de governança de dados, promovendo maior visibilidade sobre ativos de dados, rastreabilidade ponta a ponta, definição de ownership, monitoramento contínuo da qualidade e aumento da confiança nas informações utilizadas pela organização.
 
 Serão apresentados casos de uso reais, exemplos de arquitetura e demonstrações práticas envolvendo integração com Data Lakes, bancos de dados, pipelines de ingestão e plataformas analíticas, evidenciando os ganhos operacionais, estratégicos e regulatórios proporcionados por uma abordagem moderna de governança e qualidade de dados.
+
+
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/seminario_banestes/2026/Catalogo_Linhagem_Qualidade_Dados_Teoria_Pratica_OpenMetadata_Soda_RC18.pdf)
