@@ -1,5 +1,5 @@
 # Palestra: Catálogo, Linhagem e Qualidade de Dados: da Teoria à Prática com OpenMetadata + Soda para a RC18
-## Apresentada no Seminário Banestes de Tecnologia e Negócio 
+## Apresentada na Semana do Conhecimento Banestes
 
 ### RESUMO
 A crescente demanda por governança, rastreabilidade e qualidade de dados tem impulsionado organizações a adotarem plataformas modernas capazes de integrar catálogo de dados, linhagem, observabilidade e conformidade regulatória em um único ecossistema.
