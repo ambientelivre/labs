@@ -111,6 +111,13 @@ Resumo: A adoção de RAG colocou o Vector Search no centro das arquiteturas de 
 [Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2026/Marcio-Junior-Vieira-Vector-Search-Open-Source-RAG-Solr-PostgreSQL.pdf)
 
 
+### TDC Floripa - 2026
+Palestra: Arquiteturas de Streaming com Apache Flink: quando reduzir ou eliminar o uso de Apache Kafka.
+
+Resumo: Nesta palestra, exploramos arquiteturas modernas de streaming com Apache Flink, analisando em quais cenários é possível reduzir ou até eliminar o uso do Apache Kafka. Abordamos o papel do processamento stateful, event time, janelas e garantias de exactly-once, mostrando como o Flink pode atuar como engine central de dados em tempo real. Também apresentamos a plataforma Ververica Platform, seus recursos e aplicações práticas. Discutimos ainda trade-offs arquiteturais e cenários reais de uso.
+
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/TDC/2026/Marcio-Junior-Vieira-Arquiteturas-Streaming-Apache-Flink-Apache-Kafka.pdf)
+
 
 ## TICNova
 
