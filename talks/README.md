@@ -1,4 +1,4 @@
-# Lista de Palestra Apresentadas pela Ambiente Livre em Eventos Sobre Open Source & Free Software.
+# Palestra Apresentadas pela Ambiente Livre em Eventos Open Source & Free Software.
 
 Simbologia:
  🚨 Material em elaboração.
