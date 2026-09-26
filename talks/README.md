@@ -18,7 +18,7 @@ Nesta palestra, o foco principal será o ajuste fino e a arquitetura do MySQL pa
 
 Você aprenderá em detalhes o impacto prático na performance e no disco ao parametrizar variáveis críticas do my.cnf como binlog_format=ROW, binlog_row_image e políticas de retenção. Discutiremos também as melhores estratégias de infraestrutura no banco para mitigar os riscos do "Snapshot Inicial" em tabelas de grande porte (terabytes), evitando gargalos de I/O e locks indesejados na produção.
 
-[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/MySQL_BR_Conf/2026/binlog-ao-limite-configurando-otimizando -mysql-cdc-debezium-kafka.pdf)
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/MySQL_BR_Conf/2026/binlog-ao-limite-configurando-otimizando-mysql-cdc-debezium-kafka.pdf)
 
 
 ## Latinoware
