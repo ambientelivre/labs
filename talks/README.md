@@ -5,6 +5,21 @@ Simbologia:
 
 ## FISL
 
+## MySQL BR Conf
+https://mysqlbrconf.com.br
+
+### MySQL BR Conf 2026
+O Binlog ao Limite: Configurando e Otimizando o MySQL para CDC com Debezium e Kafka
+
+Resumo da Palestra:
+Extrair dados do MySQL para alimentação de Data Lakes ou microsserviços usando queries tradicionais drena recursos de CPU e causa concorrência de locks. A resposta moderna para isso é o CDC (Change Data Capture), mas o sucesso dessa estratégia não depende apenas das ferramentas de destino, e sim de como o seu banco de dados está preparado para essa carga.
+
+Nesta palestra, o foco principal será o ajuste fino e a arquitetura do MySQL para sustentar uma operação de streaming em tempo real com Debezium e Apache Kafka. Vamos abrir o motor do MySQL para entender como configurar o protocolo de replicação nativo e como o Debezium atua fingindo ser um servidor Slave para ler os logs binários em nível de linha.
+
+Você aprenderá em detalhes o impacto prático na performance e no disco ao parametrizar variáveis críticas do my.cnf como binlog_format=ROW, binlog_row_image e políticas de retenção. Discutiremos também as melhores estratégias de infraestrutura no banco para mitigar os riscos do "Snapshot Inicial" em tabelas de grande porte (terabytes), evitando gargalos de I/O e locks indesejados na produção.
+
+[Slides da Apresentação](https://github.com/ambientelivre/labs/blob/main/talks/MySQL_BR_Conf/2026/binlog-ao-limite-configurando-otimizando -mysql-cdc-debezium-kafka.pdf.pdf)
+
 
 ## Latinoware
 
